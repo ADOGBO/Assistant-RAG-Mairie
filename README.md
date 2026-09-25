@@ -34,7 +34,7 @@ Le texte est découpé par segmentation de phrases avec spaCy, avec regroupement
 
 ## 📊 Résultats d'évaluation (Ragas)
 
-Le pipeline a été évalué avec [Ragas](https://docs.ragas.io) sur un jeu de questions/réponses annotées manuellement à partir du corpus. Métriques évaluées : Faithfulness, Context Recall, Factual Correctness, Answer Relevancy.
+Les modèles LLM de génération ont été comparées grace à [Chatbot Arena](https://arena.ai/?leaderboard=) Le pipeline a été évalué avec [Ragas](https://docs.ragas.io) sur un jeu de questions/réponses annotées manuellement à partir du corpus. Métriques évaluées : Faithfulness, Context Recall, Factual Correctness, Answer Relevancy.
 
 Résultats détaillés disponibles dans [`resultats_evaluation.csv`](./resultats_evaluation.csv).
 
