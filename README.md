@@ -1,6 +1,8 @@
 # 🏛️ Assistant RAG — Mairie de Triffouillis-sur-Loire
 
-Assistant virtuel basé sur **Retrieval-Augmented Generation (RAG)** permettant de répondre à des questions à partir d'une base de connaissances personnalisée (documents administratifs de la mairie de Triffouillis-sur-Loire). Le pipeline combine extraction de documents PDF, indexation vectorielle, retrieval sémantique et génération de réponses contextualisées par un LLM.
+Assistant virtuel basé sur **Retrieval-Augmented Generation (RAG)** permettant de répondre à des questions à partir d'une base de connaissances personnalisée (documents administratifs de la mairie de Triffouillis-sur-Loire). Le pipeline combine extraction de documents PDF, indexation vectorielle, retrieval sémantique et génération de réponses contextualisées par un LLM. 
+
+[Essayer le chatbot](https://assistant-rag-mairie-4hkgbjxrcgzs7vzwoyxl56.streamlit.app/)
 
 ## ✨ Fonctionnalités
 
@@ -65,22 +67,27 @@ Créer un fichier `.env` à la racine (non versionné) :
 MISTRAL_API_KEY=ta_cle_mistral
 GROQ_API_KEY=ta_cle_groq
 ```
-## Structure du projet
-├── chat.py                 # Application Streamlit principale
-├── indexer.py              # Script pour indexer les documents
-├── eval_stock.py           # Script pour evaluer le système RAG
-├── data/                  # Dossier pour les documents sources
-├── vector_db/              # Dossier pour l'index FAISS et les chunks
-├── database/               # Base de données SQLite pour les interactions
-├── utils/                  # Modules utilitaires
-│   ├── config.py           # Configuration de l'application
-│   ├── database.py         # Gestion de la base de données
-│   ├── query_classifier.py # Classification des requêtes
-│   ├── chunk_spacy.py      # Pour chunker les fichiers
-│   ├── data_loader.py      # Chargement et extraction de contenu de fichier
-│   ├── eval_ragas.py       # Évaluation RAG avec RAGAS
-│   ├── get_api_key.py      # Gestion des clés API
-│   └── vector_store.py     # Gestion de l'index vectoriel
+## 📁 Structure du projet
+
+\`\`\`
+projet/
+├── chat.py                     # Application Streamlit principale
+├── indexer.py                  # Script d'indexation des documents
+├── eval_stock.py               # Script d'évaluation du système RAG
+├── pyproject.toml              # Dépendances gérées par uv
+├── data/                       # Documents sources
+├── vector_db/                  # Index FAISS et chunks vectorisés
+├── database/                   # Base SQLite des interactions
+└── utils/                      # Modules utilitaires
+    ├── config.py               # Configuration de l'application
+    ├── database.py             # Gestion de la base de données
+    ├── query_classifier.py     # Classification des requêtes
+    ├── chunk_spacy.py          # Découpage des documents avec spaCy
+    ├── data_loader.py          # Chargement et extraction de contenu
+    ├── eval_ragas.py           # Évaluation RAG avec RAGAS
+    ├── get_api_key.py          # Gestion des clés API
+    └── vector_store.py         # Gestion de l'index vectoriel
+\`\`\`
     
     
 
@@ -168,10 +175,6 @@ Gère la base de données SQLite pour les interactions :
 -Stockage des feedbacks utilisateurs
 -Récupération des statistiques
 
-## 📄 Licence
-
-MIT
-
 ## 👤 Auteur
 
-Gnonnan Jean-Paul Adogbo — [LinkedIn](#) · [Portfolio](#)
+Gnonnan Jean-Paul Adogbo — [LinkedIn](https://www.linkedin.com/in/gnonnan-jean-paul-adogbo-phd-269213223/) · [Portfolio](https://assistant-rag-mairie-4hkgbjxrcgzs7vzwoyxl56.streamlit.app/)
