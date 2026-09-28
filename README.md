@@ -1,6 +1,6 @@
 # 🏛️ Assistant RAG — Mairie de Triffouillis-sur-Loire
 
-Assistant virtuel basé sur **Retrieval-Augmented Generation (RAG)** permettant de répondre à des questions à partir d'une base de connaissances personnalisée (documents administratifs de la mairie de Triffouillis-sur-Loire). Le pipeline combine extraction de documents PDF, indexation vectorielle, retrieval sémantique et génération de réponses contextualisées par un LLM.
+Assistant virtuel basé sur **Retrieval-Augmented Generation (RAG)** permettant de répondre à des questions à partir d'une base de connaissances personnalisée (documents administratifs de la mairie de Triffouillis-sur-Loire). Le pipeline combine extraction de documents PDF, indexation vectorielle, retrieval sémantique et génération de réponses contextualisées par un LLM. [Démo](https://assistant-rag-mairie-4hkgbjxrcgzs7vzwoyxl56.streamlit.app/)
 
 ## ✨ Fonctionnalités
 
@@ -69,6 +69,7 @@ GROQ_API_KEY=ta_cle_groq
 ├── chat.py                 # Application Streamlit principale
 ├── indexer.py              # Script pour indexer les documents
 ├── eval_stock.py           # Script pour evaluer le système RAG
+├──pyproject.toml           # Les dépendances uv
 ├── data/                  # Dossier pour les documents sources
 ├── vector_db/              # Dossier pour l'index FAISS et les chunks
 ├── database/               # Base de données SQLite pour les interactions
@@ -168,10 +169,6 @@ Gère la base de données SQLite pour les interactions :
 -Stockage des feedbacks utilisateurs
 -Récupération des statistiques
 
-## 📄 Licence
-
-MIT
-
 ## 👤 Auteur
 
-Gnonnan Jean-Paul Adogbo — [LinkedIn](#) · [Portfolio](#)
+Gnonnan Jean-Paul Adogbo — [LinkedIn](https://www.linkedin.com/in/gnonnan-jean-paul-adogbo-phd-269213223/) · [Portfolio](https://assistant-rag-mairie-4hkgbjxrcgzs7vzwoyxl56.streamlit.app/)
