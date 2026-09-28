@@ -2,7 +2,7 @@
 
 Assistant virtuel basé sur **Retrieval-Augmented Generation (RAG)** permettant de répondre à des questions à partir d'une base de connaissances personnalisée (documents administratifs de la mairie de Triffouillis-sur-Loire). Le pipeline combine extraction de documents PDF, indexation vectorielle, retrieval sémantique et génération de réponses contextualisées par un LLM. 
 
-[Démo](https://assistant-rag-mairie-4hkgbjxrcgzs7vzwoyxl56.streamlit.app/)
+[Essayer le chatbot](https://assistant-rag-mairie-4hkgbjxrcgzs7vzwoyxl56.streamlit.app/)
 
 ## ✨ Fonctionnalités
 
