@@ -65,23 +65,27 @@ Créer un fichier `.env` à la racine (non versionné) :
 MISTRAL_API_KEY=ta_cle_mistral
 GROQ_API_KEY=ta_cle_groq
 ```
-## Structure du projet
-├── chat.py                 # Application Streamlit principale
-├── indexer.py              # Script pour indexer les documents
-├── eval_stock.py           # Script pour evaluer le système RAG
-├──pyproject.toml           # Les dépendances uv
-├── data/                  # Dossier pour les documents sources
-├── vector_db/              # Dossier pour l'index FAISS et les chunks
-├── database/               # Base de données SQLite pour les interactions
-├── utils/                  # Modules utilitaires
-│   ├── config.py           # Configuration de l'application
-│   ├── database.py         # Gestion de la base de données
-│   ├── query_classifier.py # Classification des requêtes
-│   ├── chunk_spacy.py      # Pour chunker les fichiers
-│   ├── data_loader.py      # Chargement et extraction de contenu de fichier
-│   ├── eval_ragas.py       # Évaluation RAG avec RAGAS
-│   ├── get_api_key.py      # Gestion des clés API
-│   └── vector_store.py     # Gestion de l'index vectoriel
+## 📁 Structure du projet
+
+\`\`\`
+projet/
+├── chat.py                     # Application Streamlit principale
+├── indexer.py                  # Script d'indexation des documents
+├── eval_stock.py               # Script d'évaluation du système RAG
+├── pyproject.toml              # Dépendances gérées par uv
+├── data/                       # Documents sources
+├── vector_db/                  # Index FAISS et chunks vectorisés
+├── database/                   # Base SQLite des interactions
+└── utils/                      # Modules utilitaires
+    ├── config.py               # Configuration de l'application
+    ├── database.py             # Gestion de la base de données
+    ├── query_classifier.py     # Classification des requêtes
+    ├── chunk_spacy.py          # Découpage des documents avec spaCy
+    ├── data_loader.py          # Chargement et extraction de contenu
+    ├── eval_ragas.py           # Évaluation RAG avec RAGAS
+    ├── get_api_key.py          # Gestion des clés API
+    └── vector_store.py         # Gestion de l'index vectoriel
+\`\`\`
     
     
 
