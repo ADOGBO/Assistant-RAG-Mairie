@@ -10,3 +10,41 @@ Dates cérémonies commémoratives officielles,"Voici les dates des cérémonies
 
 - **19 mars** : Journée nationale du souvenir (guerre d’Algérie)  
 - **Dernier dimanche d’avril** : Jour","19 mars : Journée nationale du souvenir (guerre d'Algérie), Dernier dimanche d'avril : Journée nationale du souvenir des victimes de la déportation,8 mai : Commémoration de la victoire de 1945, 27 mai",1.0,0.88,1.0,0.96,✅ OK
+Informations sur les démarches administratives pour déclarer une naissance,"**Déclaration de naissance à Trifouillis‑sur‑Loire**
+
+- **Délai** : la naissance doit être déclarée à la mairie **dans les cinq jours qui suivent l’accouchement**【intances/RÈGLEMENT MUNICIPAL.pdf (Sco",Les déclarations de naissance doivent être effectuées à la mairie dans les cinq jours qui suivent l'accouchement.,0.667,,1.0,0.834,✅ OK
+quels sont les horaires pour effectuer des travaux de bricolage ou de jardinage?,"Les travaux de bricolage ou de jardinage sont autorisés :
+
+- **Lundi – vendredi** : de **8 h 30 à 12 h00** et de **14 h 30 à 19 h30**  
+- **Samedi** : de **9 h00 à 12 h00** et de **15 h00 à 19 h00**  ","Les travaux de bricolage ou de jardinage sont autorisés du lundi au vendredi de 8h00 à 20h00, le samedi de 9h00 à 19h00 et le dimanche de 10h00 à 18h00.",1.0,,1.0,1.0,✅ OK
+Horaires pour vendre des boissons alcoolisées à emporter?,"La vente à emporter de boissons alcoolisées est **interdite entre 22 h00 et 6 h00** ; elle est donc autorisée de **6 h00 à 22 h00**.  
+*Source : Règlement municipal – article 11.6*【intances/RÈGLEMENT ",La vente à emporter de boissons alcoolisées est interdite entre 22h00 et 6h00,,,1.0,1.0,✅ OK
+Dans quel mois est célébré l'accueil des nouveaux arrivants dans la commune ?,"L’accueil des nouveaux habitants est organisé chaque année en **septembre**【Source : RÈGLEMENT MUNICIPAL.pdf, section 5.8】.",L'accueil des nouveaux habitants est organisé chaque année en septembre.,1.0,1.0,1.0,1.0,✅ OK
+Donne moi le lieu les horaires et le contact de la police municipale de Trifouillis-sur-Loire,"**Police municipale de Trifouillis‑sur‑Loire**  
+
+- **Lieu** : Bureau de police municipale, **Place de la République**【Source 1】  
+- **Horaires d’ouverture au public** : du **lundi au vendredi** de **","La police municipale de Trifouillis-sur-Loire est située au  Place de la République,. Les horaires d'ouverture sont du lundi au vendredi de 9h00 à 12h00 et de 14h00 à 17h00. La police municipale peut ",1.0,0.73,1.0,0.91,✅ OK
+"Bonjour, quel temps fait-il aujourd'hui ?",Je ne dispose pas d'information sur la météo du jour dans les documents fournis.,Le système ne peut pas donner la météo en temps réel et suggère de consulter une source externe.,1.0,0.67,0.0,0.557,⚠️ faible
+Combien de km de pistes cyclables allons nous disposer ?,"D’après le plan d’actions détaillé de 2026, les nouvelles pistes cyclables prévues sont :
+
+* **Av. de la République (Tr. T1‑T3)** : 1,2 km  
+* **Bandes cyclables Rue du Moulin (T2)** : 0,8 km  
+* **Vo","Le plan d'action 2026 prévoit environ 2,5 km de nouvelles pistes cyclables sécurisées.",1.0,0.44,1.0,0.813,✅ OK
+Quel est le nom du Maire de Trifouillis-sur-Loire?,Le maire de Trifouillis‑sur‑Loire est Madame **Pétillante Rigolade**【communication/Acceuil_affichage_Mairie de Triffouillis sur Loire.pdf】.,Son nom est Madame Pétillante Rigolade.,1.0,0.0,1.0,0.667,⚠️ faible
+Qui sont les présents et les absents du Procès-verbal de la Réunion du Conseil Municipal du 20 décembre 2023?,"**Présents** (procès‑verbal du 20 décembre 2023) :  
+- Mme Dupont (Maire)  
+- M. Martin  
+- Mme Legrand  
+- M. Petit  
+- Mme Durand  
+- M. Laurent  
+- M. Renault  
+
+**Absents** :  
+- M. Simon  
+- Mme ","Présents: Mme Dupont (Maire), M. Martin, Mme Legrand, M. Petit, Mme Durand, M. Laurent, M. Renault. Absents: M. Simon, Mme Blanc",0.9,0.87,1.0,0.923,✅ OK
+Quelles sont les pièces à fournir pour une acte de naissance dans la ville de Paris,Je ne dispose pas d’information sur les pièces à fournir pour obtenir un acte de naissance à Paris dans les documents qui m’ont été fournis. L’on ne trouve que les délais de déclaration de naissance à,Je ne dispose pas d’informations dans les documents fournis concernant les pièces à fournir pour obtenir un acte de naissance à la ville de Paris.,0.8,0.57,1.0,0.79,✅ OK
+"Quels sont les trois services municipaux ayant le budget de fonctionnement le plus élevé en 2024, avec leur montant respectif ?","Les trois services municipaux avec le budget de fonctionnement le plus élevé en 2024 sont :
+
+| Rang | Service               | Budget alloué (en €) |
+|------|-----------------------|-------------------","Éducation	1 000 000 €, Voirie	750 000 € et Services Technique 600 000  €",0.857,0.46,1.0,0.772,✅ OK
