@@ -1,0 +1,12 @@
+question,response,reference,faithfulness,context_precision,context_recall,score_moyen,flag
+Informations sur les horaires d'ouverture de la mairie de Trifouillis-sur-Loire,"**Horaires d’ouverture de la mairie de Triffouillis‑sur‑Loire**  
+
+- **Lundi – vendredi** : 9 h 00 – 12 h 00 **et** 14 h 00 – 17 h 00  
+- **Samedi** : 9 h 00 – 12 h 00  
+- **Dimanche** : fermé  
+
+Ces ","La mairie de Trifouillis-sur-Loire est ouverte au public du lundi au vendredi de 9h00 à 12h00 et de 14h00 à 17h00, ainsi que le samedi de 9h00 à 12h00.",1.0,0.73,1.0,0.91,✅ OK
+Dates cérémonies commémoratives officielles,"Voici les dates des cérémonies commémoratives officielles prévues par le règlement municipal :
+
+- **19 mars** : Journée nationale du souvenir (guerre d’Algérie)  
+- **Dernier dimanche d’avril** : Jour","19 mars : Journée nationale du souvenir (guerre d'Algérie), Dernier dimanche d'avril : Journée nationale du souvenir des victimes de la déportation,8 mai : Commémoration de la victoire de 1945, 27 mai",1.0,0.88,1.0,0.96,✅ OK

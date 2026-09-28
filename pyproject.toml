@@ -1,0 +1,51 @@
+[project]
+name = "dossiers-env"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ADOGBO", email = "adogbo@ceremade.dauphine.fr" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "camelot-py>=2.0.0",
+    "faiss-cpu>=1.15.1",
+    "google>=3.0.0",
+    "groq>=1.7.0",
+    "langchain-community<0.4.2",
+    "langchain-core>=1.6.3",
+    "langchain-huggingface>=1.2.2",
+    "langchain-mistralai>=1.1.6",
+    "langchain-text-splitters>=1.1.2",
+    "mistralai>=2.10.1",
+    "openai>=3.3.0",
+    "pandas>=3.0.6",
+    "pdfplumber>=0.11.10",
+    "pillow>=12.3.0",
+    "pymupdf4llm>=1.28.2",
+    "pypdf2>=3.0.1",
+    "pytesseract>=0.3.13",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.3",
+    "pyyaml>=6.0.3",
+    "ragas>=0.4.3",
+    "sentence-transformers>=6.1.0",
+    "spacy>=3.8.16",
+    "sqlalchemy>=2.0.54",
+    "streamlit>=1.64.0",
+    "streamlit-feedback>=0.1.4",
+    "tabula-py>=2.10.0",
+]
+
+[project.scripts]
+dossiers-env = "dossiers_env:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]
