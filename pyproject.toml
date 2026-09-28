@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "ADOGBO", email = "adogbo@ceremade.dauphine.fr" }
 ]
-requires-python = ">=3.12"
+requires-python = ">=3.12,<4.0"
 dependencies = [
     "accelerate>=1.15.0",
     "camelot-py>=2.0.0",
