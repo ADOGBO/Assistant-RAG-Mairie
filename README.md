@@ -45,9 +45,9 @@ Résultats détaillés disponibles dans [`resultat_eval.csv`](./resultat_eval.cs
 
 | Métrique | Score |
 |---|---|
-| Faithfulness | 1 |
-| Context Recall |1|
-| Factual Correctness | 0.8|
+| Faithfulness |  0.935333 |
+| Context Recall |0.923077|
+| Factual Correctness | 0.635000|
 
 ## 🚀 Installation
 
